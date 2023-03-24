@@ -1,0 +1,92 @@
+
+/*variables*/
+$picture_1: url("https://i.postimg.cc/XvfD0vFP/dog1.jpg");
+
+$picture_2: url("https://i.postimg.cc/rwLG9SZt/dod2.jpg");
+
+$picture_3: url("https://i.postimg.cc/FRnbttPq/dog3.jpg");
+
+$picture_4: url("https://i.postimg.cc/kG1phh8X/dog4.jpg");
+
+$picture_5: url("https://i.postimg.cc/0ypCzBQM/dog5.jpg");
+
+$picture_6: url("https://i.postimg.cc/nLJ0Tt5G/dog6.jpg");
+
+$background_color: #eff2f5;
+
+/*mixin*/
+
+
+@mixin promo_dogs ($image) {
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-position:center center;  
+   background-image: $image;   
+}
+
+.fa-cart-shopping, .fa-user{
+    padding:0 12px;
+    
+}
+
+
+#main-slider, .carousel-inner, .carousel-item, .carousel-item.active {
+    height:100vh;
+    
+}
+
+
+.carousel-item:nth-child(1) {
+    @include promo_dogs ($picture_1);
+    }
+ 
+.carousel-item:nth-child(2) {
+    @include promo_dogs ($picture_2);    
+    }   
+ 
+ .carousel-item:nth-child(3) {
+    @include promo_dogs ($picture_3);     
+    } 
+    
+ .carousel-item:nth-child(4) {
+     @include promo_dogs ($picture_4);     
+    }  
+    
+ .carousel-item:nth-child(5) {
+     @include promo_dogs ($picture_5);   
+    } 
+    
+ .carousel-item:nth-child(6) {
+     @include promo_dogs ($picture_6);
+    }     
+  
+ .btn-group .fa-regular{
+    font-size:14px;
+}
+
+ .promo .card-img {
+      max-height:500px;
+      object-fit:cover;  
+}
+
+ .promo .card-img-overlay{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%)
+}
+
+  .contacts {
+      background-color:$background_color;
+      
+  .card {    
+     background-color:$background_color;  
+       }
+ }  
+ 
+ 
+ .list-group .list-group-item {
+      background-color:#eff2f5; 
+      display:block;
+      margin:0 auto;
+  }
+  

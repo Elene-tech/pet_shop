@@ -1,0 +1,65 @@
+/*variables*/
+/*mixin*/
+.fa-cart-shopping, .fa-user {
+  padding: 0 12px; }
+
+#main-slider, .carousel-inner, .carousel-item, .carousel-item.active {
+  height: 100vh; }
+
+.carousel-item:nth-child(1) {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("https://i.postimg.cc/XvfD0vFP/dog1.jpg"); }
+
+.carousel-item:nth-child(2) {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("https://i.postimg.cc/rwLG9SZt/dod2.jpg"); }
+
+.carousel-item:nth-child(3) {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("https://i.postimg.cc/FRnbttPq/dog3.jpg"); }
+
+.carousel-item:nth-child(4) {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("https://i.postimg.cc/kG1phh8X/dog4.jpg"); }
+
+.carousel-item:nth-child(5) {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("https://i.postimg.cc/0ypCzBQM/dog5.jpg"); }
+
+.carousel-item:nth-child(6) {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("https://i.postimg.cc/nLJ0Tt5G/dog6.jpg"); }
+
+.btn-group .fa-regular {
+  font-size: 14px; }
+
+.promo .card-img {
+  max-height: 500px;
+  object-fit: cover; }
+
+.promo .card-img-overlay {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.contacts {
+  background-color: #eff2f5; }
+  .contacts .card {
+    background-color: #eff2f5; }
+
+.list-group .list-group-item {
+  background-color: #eff2f5;
+  display: block;
+  margin: 0 auto; }
